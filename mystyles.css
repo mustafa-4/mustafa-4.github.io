@@ -1,0 +1,25 @@
+body{
+	background-color:powderblue;
+}
+h1{
+	font-size:300%;
+	text-align: center;
+}
+img{
+	float:left;
+	width:400px;
+	height:500px;
+	
+}
+p{
+	font-family:courier;
+	background-color: red;
+text-align: center;
+color: ;
+}
+a{
+	color: green;
+}
+.M{
+	text-align:right;
+}
