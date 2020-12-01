@@ -1,0 +1,49 @@
+body{
+	background-color:powderblue;
+	text-align: center;
+}
+h1{
+	font-size:300%;
+	
+}
+img{
+	float:right;
+	width:400px;
+	height:500px;
+	padding:10px;
+	
+}
+p{
+	font-family:courier;
+	background-color: yellow;
+ 
+  font-size:120%;
+}
+a{
+	color: green;
+	
+}
+
+#E:link,#E:visited{
+background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  
+  text-decoration: none;
+  display: inline-block;
+  
+}
+#E:hover,#E:active{
+
+background-color: green;
+} 
+#T{
+font-style: italic;
+}
+
+
+#dropbtn{
+  font-size: 16px;  
+  float: left;
+  
+}
