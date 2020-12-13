@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header,
+        footer
+        {
+            color: white;
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+        }
+        .form-wraper
+        {
+            margin: 50px auto;
+            width: 500px;
+        }
+        .table-row
+        {
+            width: 100%;
+            clear: both;
+            margin: 10px 0;
+        }
+        .table-row>div
+        {
+            width: 120px;
+            float: left;
+            text-align: right;
+            padding: 8px 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .table-row>input,
+        .table-row>textarea
+        {
+            width: 360px;
+            border: 2px solid lightblue;
+            font-size: 18px;
+            padding: 5px 1px;
+            resize: none;
+        }
+        .btn-submit
+        {
+            text-align: center;
+            border: 2px solid lightblue;
+            padding: 5px 10px;
+            background-color: rgb(0, 0, 88);
+            color: white;
+            font-size: 18px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+        .center-btn{
+            text-align: center;
+        }
+    </style>
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        Contact Me
+    </header>
+    <div class="form-wraper">
+        <form id="content_form">
+            <div class="table-row">
+                <div for="subject">Subject*</div>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <div class="table-row">
+                <div for="Email">Email*</div>
+                <input type="email" id="Email" name="Email">
+            </div>
+            <div class="table-row">
+                <div for="ID">ID*</div>
+                <input type="text" id="ID" name="ID">
+            </div>
+            <div class="table-row">
+                <div for="URL">URL*</div>
+                <input type="text" id="URL" name="URL">
+            </div>
+            <div class="table-row">
+                <div for="message">Message*</div>
+                <textarea rows="6" id="Message" name="Message"></textarea>                
+            </div>
+
+            <div class="center-btn">
+                <input id="submit" class="btn-submit" type="submit" value="submit" />
+            </div>
+        </form>
+
+        <div class="center-btn" style="margin-top: 20px;">
+            <a href="index (1).html">Home Page</a><br>
+            <a href="index.html">Second Mustafa Page</a>
+        </div>
+    </div>
+    
+    <footer>
+        @Copy Right 2020
+    </footer>    
+</body>
+<script src="jsfile.js"></script>
+</html>
